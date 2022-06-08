@@ -2,7 +2,8 @@
 
 class Solution {
     public int[][] merge(int[][] intervals) {
- Arrays.sort(intervals,(a,b)->Integer.compare(a[0],b[0]));
+ Arrays.sort(intervals,(a,b)->Integer.compare(a[0],b[0]));  // to understand this statement , follow the link below- 
+       // https://stackoverflow.com/questions/68918425/meaning-of-arrays-sortintervals-arr1-arr2-integer-comparearr10-arr20
         
         ArrayList<int[]> list=new ArrayList<>();
         
